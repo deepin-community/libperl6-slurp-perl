@@ -1,0 +1,21 @@
+Source: libperl6-slurp-perl
+Section: perl
+Priority: optional
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Allard Hoeve <allard@byte.nl>,
+ gregor herrmann <gregoa@debian.org>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: libperl6-export-perl, perl
+Standards-Version: 3.9.5
+Homepage: https://metacpan.org/release/Perl6-Slurp
+Vcs-Git: git://anonscm.debian.org/pkg-perl/packages/libperl6-slurp-perl.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-perl/packages/libperl6-slurp-perl.git
+
+Package: libperl6-slurp-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}, libperl6-export-perl
+Description: module implementing the Perl 6 'slurp' built-in
+ Perl6::Slurp allows you to "slurp" in contents from a file or
+ a file handle into a scalar or an array. This used to be done by
+ modifying the $/ built-in, but Perl6::Slurp provides the ease of
+ use of the Perl 6's slurp() function.

@@ -1,0 +1,136 @@
+libperl6-slurp-perl (0.051005-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Tue, 29 Dec 2020 02:02:29 +0100
+
+libperl6-slurp-perl (0.051005-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Imported Upstream version 0.051005
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Mon, 21 Apr 2014 22:13:27 +0200
+
+libperl6-slurp-perl (0.051004-1) unstable; urgency=medium
+
+  * Team upload.
+  * Imported Upstream version 0.051004
+  * Declare compliance with Debian Policy 3.9.5
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sun, 26 Jan 2014 22:12:09 +0100
+
+libperl6-slurp-perl (0.051003-1) unstable; urgency=low
+
+  * Team upload.
+  * Imported Upstream version 0.051003
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+  * Bump Standards-Version to 3.9.4
+
+ -- Salvatore Bonaccorso <carnil@debian.org>  Sat, 10 Aug 2013 17:45:47 +0200
+
+libperl6-slurp-perl (0.051000-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/copyright: update to Copyright-Format 1.0.
+  * Update years of upstream copyright.
+  * Bump Standards-Version to 3.9.3 (no changes).
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 15 Jun 2012 01:26:24 +0200
+
+libperl6-slurp-perl (0.050000-1) unstable; urgency=low
+
+  [ gregor herrmann ]
+  * debian/control: Added: ${misc:Depends} to Depends: field.
+
+  [ Carlo U. Segre ]
+  * Removed myself from Uploaders.
+
+  [ Nathan Handler ]
+  * debian/watch: Update to ignore development releases.
+
+  [ gregor herrmann ]
+  * Email change: gregor herrmann -> gregoa@debian.org
+
+  [ Gunnar Wolf ]
+  * Removing myself as an uploader.
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ gregor herrmann ]
+  * New upstream release.
+  * Switch to "3.0 (quilt)" source format.
+  * Switch to debhelper compatibility level 8. Use tiny debian/rules.
+  * debian/copyright: switch to DEP5 format, update years of packaging
+    copyright.
+  * Bump Standards-Version to 3.9.2 (no changes).
+  * Remove version from libperl6-export-perl (build) dependency, nothing
+    older in the archive.
+  * Make short description a noun phrase.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 11 Feb 2012 23:42:11 +0100
+
+libperl6-slurp-perl (0.03-6) unstable; urgency=low
+
+  [ Joachim Breitner ]
+  * Removed myself from uploaders.
+
+  [ gregor herrmann ]
+  * debian/control: Added: Vcs-Svn field (source stanza); Vcs-Browser
+    field (source stanza); Homepage field (source stanza). Removed: XS-
+    Vcs-Svn fields.
+  * debian/rules:
+    - delete /usr/lib/perl5 only if it exists (closes: #467855)
+    - update based on dh-make-perl's templates
+  * debian/watch: use dist-based URL.
+  * Set Standards-Version to 3.7.3 (no changes).
+  * Remove ./COPYRIGHT (not in upstream tarball), revert changes to
+    MANIFEST.
+
+ -- gregor herrmann <gregor+debian@comodo.priv.at>  Wed, 12 Mar 2008 00:03:34 +0100
+
+libperl6-slurp-perl (0.03-5) unstable; urgency=low
+
+  * Use $(CURDIR) [make] instead of $(PWD) [sh] to fix issues with sudo.
+
+ -- gregor herrmann <gregor+debian@comodo.priv.at>  Sun,  1 Oct 2006 14:44:57 +0200
+
+libperl6-slurp-perl (0.03-4) unstable; urgency=low
+
+  * Moved debhelper to Build-Depends.
+  * Set Standards-Version to 3.7.2 (no changes).
+  * Set Debhelper Compatibility Level to 5.
+  * Removed empty /usr/lib/perl5 from package.
+
+ -- gregor herrmann <gregor+debian@comodo.priv.at>  Fri, 16 Jun 2006 16:53:34 +0200
+
+libperl6-slurp-perl (0.03-3) unstable; urgency=low
+
+  * Cleaned-up dependencies: let dh_perl decide
+    (Thanks Brendan O'Dea <bod@debian.org>)
+  * Run t/*.t tests before installing
+
+ -- Allard Hoeve <allard@byte.nl>  Mon, 11 Oct 2004 17:25:03 +0200
+
+libperl6-slurp-perl (0.03-2) unstable; urgency=low
+
+  * Add Uploaders: line to add Joachim, Gunnar and me
+  * Upgrade to Standards-Version: 3.6.1
+  * Fixed minor details in debian/control (description)
+  * Initial upload. (Closes: #247246)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Fri, 22 Sep 2004 11:01:01 -0500
+
+libperl6-slurp-perl (0.03-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Allard Hoeve <allard@byte.nl>  Wed, 21 Apr 2004 23:18:19 +0200
+
